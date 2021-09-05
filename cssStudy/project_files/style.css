@@ -1,0 +1,57 @@
+/* Selector {
+  Property: value:
+} */
+
+* {
+  text-align: right;
+}
+
+body {
+  background-image: url(backgroundimage.jpg);
+  background-size: cover;
+}
+
+h2, p {
+  color: #673400;
+  text-align: center;
+  border: 5px solid rgba(139, 46, 95, 0.5);
+  cursor: pointer;
+}
+
+p {
+  color: pink;
+}
+
+p {
+  color: blue;
+  line-height: 20px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 120%;
+  font-family: 'Poiret One', cursive;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+.webtext {
+  border: 5px dashed green;
+}
+
+.active {
+  color: red;
+}
+
+#div1 {
+  background: blue;
+}
+
+#div2 {
+  background: red;
+}
+
+footer {
+  text-align: center;
+}
